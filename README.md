@@ -90,4 +90,31 @@ Why? Prevents man-in-the-middle (MITM) attacks and data leaks.
     - API Gateway (Kong, AWS API Gateway) – Manages authentication, logging, and rate limiting.
 Why? Adds an extra security layer before requests reach the backend.
 
+## CI/CD Pipeline Overview
+An automated process that builds, tests, and deploys code changes quickly and safely.
+
+How?
+
+Code is pushed → Triggers automation.
+
+Tests run (unit, security, integration).
+
+If tests pass → auto-deploy to staging/production.
+
+**Why Use It?**
+✔ Faster releases (no manual errors)
+✔ Fewer bugs (caught early)
+✔ Easy rollbacks if something breaks
+✔ Better teamwork (smooth integrations)
+
+**Popular Tools:**
+
+GitHub Actions, Jenkins (CI/CD)
+
+Docker, Kubernetes (deployment)
+
+Selenium, SonarQube (testing)
+
+Result: Reliable, frequent updates without chaos.
+
 AI Recommendations: Personalized suggestions.
