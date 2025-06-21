@@ -9,7 +9,7 @@ Booking System: Real-time reservations with date conflicts handled.
 
 Reviews & Ratings: Feedback system for guests and hosts.
 
-👥 **Team Roles**
+##h2 👥 **Team Roles**
 **Backend Developer:** Responsible for implementing API endpoints, database schemas, and business logic.
 **Database Administrator:** Manages database design, indexing, and optimizations.
 DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
