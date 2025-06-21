@@ -30,23 +30,23 @@ Reviews & Ratings: Feedback system for guests and hosts.
 1. **User Authentication**
    - **Endpoints:** /users/, /users/{user_id}/
    - **Features:** Register new users, authenticate, and manage user profiles.
-2. Property Management
-Endpoints: /properties/, /properties/{property_id}/
-Features: Create, update, retrieve, and delete property listings.
-4. Booking System
-Endpoints: /bookings/, /bookings/{booking_id}/
-Features: Make, update, and manage bookings, including check-in and check-out details.
-5. Payment Processing
-Endpoints: /payments/
-Features: Handle payment transactions related to bookings.
-6. Review System
-Endpoints: /reviews/, /reviews/{review_id}/
-Features: Post and manage reviews for properties.
-7. Database Optimizations
-Indexing: Implement indexes for fast retrieval of frequently accessed data.
-Caching: Use caching strategies to reduce database load and improve performance.
-Extensions (Optional)
-Messaging: Host-guest chat.
+2. **Property Management**
+   - **Endpoints:** /properties/, /properties/{property_id}/
+   - **Features:** Create, update, retrieve, and delete property listings.
+3. **Booking System**
+   - **Endpoints:** /bookings/, /bookings/{booking_id}/
+   - **Features:** Make, update, and manage bookings, including check-in and check-out details.
+4. **Payment Processing**
+   - **Endpoints:** /payments/
+   - **Features:** Handle payment transactions related to bookings.
+5. **Review System**
+   - **Endpoints:** /reviews/, /reviews/{review_id}/
+   - **Features:** Post and manage reviews for properties.
+6. **Database Optimizations**
+   - **Indexing:** Implement indexes for fast retrieval of frequently accessed data.
+   - **Caching:** Use caching strategies to reduce database load and improve performance.
+   - Extensions (Optional)
+   - **Messaging:** Host-guest chat.
 
 Payments: Stripe/PayPal integration.
 
