@@ -1,4 +1,4 @@
-# H1 Airbnb Clone: Project Overview
+# Airbnb Clone: Project Overview
 A full-stack web application inspired by Airbnb, enabling users to browse, book, and list short-term rental properties.
 
 Property Listings: Hosts can add homes with details (photos, pricing, amenities).
@@ -9,11 +9,11 @@ Booking System: Real-time reservations with date conflicts handled.
 
 Reviews & Ratings: Feedback system for guests and hosts.
 
-## H2👥 **Team Roles**
-**Backend Developer:** Responsible for implementing API endpoints, database schemas, and business logic.
-**Database Administrator:** Manages database design, indexing, and optimizations.
-DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
-QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
+## 👥 **Team Roles**
+1. **Backend Developer:** Responsible for implementing API endpoints, database schemas, and business logic.
+2. **Database Administrator:** Manages database design, indexing, and optimizations.
+3. DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
+4. QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
 
 
