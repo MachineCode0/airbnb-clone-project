@@ -59,4 +59,35 @@ Reviews & Ratings: Feedback system for guests and hosts.
 
 - Payments: Stripe/PayPal integration.
 
+## API Security Key
+1. **Authentication:** Ensures that only verified users can access the API.
+    - **JWT (JSON Web Tokens)** – Stateless tokens for session management.
+    - **OAuth 2.0 / OpenID Connect** – For delegated authentication(e.g., Google, Facebook login)
+Why? Prevents unauthorized users from accessing restricted endpoints.
+2. **Authorization:** Controls what authenticated users can do.
+    - Role-Based Access Control (RBAC) – Grants permissions based on user roles (e.g., Admin, User).
+    - Attribute-Based Access Control (ABAC) – Fine-grained access based on attributes (e.g., location, department).
+    - Policy-Based Access (e.g., OPA, Casbin) – Dynamic rule enforcement.
+Why? Ensures users only access data and functions they are permitted to.
+
+3. **Rate Limiting & Throttling:** Prevents abuse and DDoS attacks.
+    - Request Throttling (e.g., 100 requests/minute per user).
+    - IP-Based Rate Limiting – Blocks excessive requests from a single IP.
+    - Token Bucket Algorithm – Smoothly controls burst traffic.
+
+Why? Protects against brute-force attacks, scraping, and server overload.
+
+4. **HTTPS & Encryption:** Secures data in transit and at rest.
+
+    - TLS/SSL (HTTPS) – Mandatory for all APIs.
+    - Data Encryption (AES-256) – For sensitive data (e.g., passwords, payment details).
+    - Hashing (bcrypt, Argon2) – Never store plain-text passwords.
+Why? Prevents man-in-the-middle (MITM) attacks and data leaks.
+
+5. **API Gateway & Firewall:** Centralizes security controls.
+    - Web Application Firewall (WAF) – Blocks SQLi, XSS, DDoS.
+    - Reverse Proxy (Nginx, Cloudflare) – Filters malicious traffic.
+    - API Gateway (Kong, AWS API Gateway) – Manages authentication, logging, and rate limiting.
+Why? Adds an extra security layer before requests reach the backend.
+
 AI Recommendations: Personalized suggestions.
