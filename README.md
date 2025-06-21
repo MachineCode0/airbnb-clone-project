@@ -30,7 +30,7 @@ Reviews & Ratings: Feedback system for guests and hosts.
 1. **User Authentication**
 ..* **Endpoints:** /users/, /users/{user_id}/
 ..* Features: Register new users, authenticate, and manage user profiles.
-3. Property Management
+2. Property Management
 Endpoints: /properties/, /properties/{property_id}/
 Features: Create, update, retrieve, and delete property listings.
 4. Booking System
