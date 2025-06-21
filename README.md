@@ -48,6 +48,15 @@ Reviews & Ratings: Feedback system for guests and hosts.
    - Extensions (Optional)
    - **Messaging:** Host-guest chat.
 
-Payments: Stripe/PayPal integration.
+## Feature Breakdown
+- Property Listings: Hosts can add homes with details (photos, pricing, amenities).
+
+- Search & Filters: Guests can search by location, dates, price, and property type.
+
+- Booking System: Real-time reservations with date conflicts handled.
+
+- Reviews & Ratings: Feedback system for guests and hosts.
+
+- Payments: Stripe/PayPal integration.
 
 AI Recommendations: Personalized suggestions.
